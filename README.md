@@ -26,31 +26,33 @@ Aide à identifier rapidement les valeurs des paramètres beta, gamma et mu qui 
 Ce qu’il faut retenir
 
 # Explication du paramètre R0 :
-Quand R0 < 1 : Une personne infectée contamine, en moyenne, moins d'une autre personne avant de guérir ou de mourir. Dans ce cas, l'épidémie s'éteint progressivement.
-Quand R0 > 1 : Une personne infectée contamine plus d'une autre personne en moyenne. Cela conduit à une propagation rapide et exponentielle de l'épidémie.
-Impact des Interventions :
+Quand R0 < 1 : Une personne infectée contamine, en moyenne, moins d'une autre personne avant de guérir ou de mourir. Dans ce cas, l'épidémie s'éteint progressivement. <br>
+Quand R0 > 1 : Une personne infectée contamine plus d'une autre personne en moyenne. Cela conduit à une propagation rapide et exponentielle de l'épidémie.<br>
+# Impact des Interventions :
 Sans Intervention :
 L'épidémie suit son cours naturel.
 Si R0 > 1, les cas augmentent rapidement, atteignent un pic, puis diminuent à mesure que les personnes se rétablissent ou décèdent.
-Cela conduit à des pics d’infections élevés et une surcharge des ressources médicales, entraînant un taux de mortalité plus important.
+Cela conduit à des pics d’infections élevés et une surcharge des ressources médicales, entraînant un taux de mortalité plus important.<br>
 Avec Intervention :
 Les mesures comme la distanciation sociale ou le port du masque réduisent beta, ce qui diminue R0.
 Lorsque R0 est réduit en dessous de 1, cela ralentit la propagation de l’épidémie, réduit le pic d’infections et diminue le nombre de décès.
-Par exemple, une réduction de 50 % de beta peut faire passer R0 de 2 à 1 ou moins, stoppant ainsi l’épidémie.
+Par exemple, une réduction de 50 % de beta peut faire passer R0 de 2 à 1 ou moins, stoppant ainsi l’épidémie.<br>
+
 Comparaison des Scénarios :
 Sans Intervention :
 Croissance exponentielle des cas avec un pic d’infections rapide et élevé.
-Surcharge des systèmes de santé, entraînant un taux de mortalité accru.
+Surcharge des systèmes de santé, entraînant un taux de mortalité accru.<br>
 Avec Intervention :
 Propagation plus lente de l’épidémie.
 Pic d’infections plus faible, avec une durée d’épidémie potentiellement plus longue, mais plus contrôlable.
-Moins de décès grâce à un système de santé moins saturé.
+Moins de décès grâce à un système de santé moins saturé.<br>
 
 ## Outils Utilisés
 
 Matplotlib : Pour générer des graphiques qui permettent de visualiser les scénarios et d’analyser les dynamiques épidémiques.
 Pandas : Pour lire et manipuler facilement les données observées dans un fichier CSV.
-Conclusion
+
+## Conclusion
 
 Ce projet met en évidence l'importance des interventions pour contrôler une épidémie. En réduisant beta, nous diminuons R0, ce qui ralentit ou arrête la propagation du virus. Voici les principaux enseignements du projet :
 
@@ -66,14 +68,14 @@ Des graphiques permettent de comparer les données observées et simulées, en a
 Voici les références qui nous ont aidé à comprendre les concepts mathématiques, à implémenter le modèle SIRD en Python, et à explorer les dynamiques épidémiques :
 
 Dridk - Introduction aux équations différentielles appliquées :
-https://dridk.me/equation-differentielle.html
+https://dridk.me/equation-differentielle.html <br>
 Data Science Stack Exchange - Implémentation du modèle SIRD en Python :
-https://datascience.stackexchange.com/questions/130751/implementing-the-sird-model-in-python
+https://datascience.stackexchange.com/questions/130751/implementing-the-sird-model-in-python <br>
 SciPython - Modèle SIR et ses applications :
-https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/
+https://scipython.com/book/chapter-8-scipy/additional-examples/the-sir-epidemic-model/ <br>
 IntechOpen - Modèles mathématiques des épidémies :
-https://www.intechopen.com/chapters/1181954
+https://www.intechopen.com/chapters/1181954 <br>
 Cours PDF - Analyse approfondie des modèles SIR :
-https://drive.google.com/file/d/1OAtX_E2IgZ5hkujncIyyB7ulcn2PoTwJ/view?usp=sharing
+https://drive.google.com/file/d/1OAtX_E2IgZ5hkujncIyyB7ulcn2PoTwJ/view?usp=sharing <br>
 YouTube - Tutoriel sur les modèles épidémiques :
 https://www.youtube.com/watch?v=mwJXjxMTwAw
