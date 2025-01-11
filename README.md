@@ -1,4 +1,4 @@
-## Simulation du Modèle SIRD avec Évaluation par MSE
+# Simulation du Modèle SIRD avec Évaluation par MSE
 
 Ce projet consiste à simuler l'évolution d'une épidémie à l'aide du modèle SIRD (Susceptibles, Infectés, Rétablis, Décès). L'objectif principal est de mieux comprendre l'impact des interventions, telles que la réduction du taux de transmission (beta), sur la dynamique épidémique. De plus, ce projet analyse le nombre de reproduction de base (R0) afin de mieux saisir les mécanismes de propagation d'une épidémie et l'effet des mesures de contrôle.
 
