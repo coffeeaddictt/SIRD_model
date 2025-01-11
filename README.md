@@ -4,7 +4,7 @@ Ce projet consiste à simuler l'évolution d'une épidémie à l'aide du modèle
 
 ## Principales Fonctionnalités
 
-# Simulation du Modèle SIRD :
+## Simulation du Modèle SIRD :
 Le projet simule la progression d'une épidémie, à la fois avec et sans intervention.
 Il compare les données observées avec les données simulées pour évaluer la précision du modèle.
 Visualisation avec Matplotlib :
