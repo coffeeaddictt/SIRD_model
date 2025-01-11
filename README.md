@@ -25,10 +25,10 @@ Met davantage l’accent sur les grandes erreurs grâce à son principe de péna
 Aide à identifier rapidement les valeurs des paramètres beta, gamma et mu qui reproduisent fidèlement les dynamiques épidémiques.
 Ce qu’il faut retenir
 
-# Explication du paramètre R0 :
+## Explication du paramètre R0 :
 Quand R0 < 1 : Une personne infectée contamine, en moyenne, moins d'une autre personne avant de guérir ou de mourir. Dans ce cas, l'épidémie s'éteint progressivement. <br>
 Quand R0 > 1 : Une personne infectée contamine plus d'une autre personne en moyenne. Cela conduit à une propagation rapide et exponentielle de l'épidémie.<br>
-# Impact des Interventions :
+## Impact des Interventions :
 Sans Intervention :
 L'épidémie suit son cours naturel.
 Si R0 > 1, les cas augmentent rapidement, atteignent un pic, puis diminuent à mesure que les personnes se rétablissent ou décèdent.
